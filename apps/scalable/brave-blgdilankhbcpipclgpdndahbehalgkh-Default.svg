@@ -38,11 +38,13 @@
       <stop
          offset="0"
          stop-color="#ffb8c4"
-         id="stop3" />
+         id="stop3"
+         style="stop-color:#ffeeee;stop-opacity:0.82597589;" />
       <stop
          offset="1"
          stop-color="#fff"
-         id="stop4" />
+         id="stop4"
+         style="stop-color:#ffffff;stop-opacity:0.80217344;" />
     </linearGradient>
   </defs>
   <image
