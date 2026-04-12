@@ -22,6 +22,9 @@
       postPatch = (old.postPatch or "") + ''
         echo "Injecting custom icons into source..."
         cp --no-preserve=mode ${self}/apps/scalable/*.svg src/apps/scalable/
+        echo "Replacing dark trash icon with light..."
+        cp --no-preserve=mode src/places/scalable/user-trash.svg src/places/scalable/user-trash-dark.svg
+        cp --no-preserve=mode src/places/scalable/user-trash-full.svg src/places/scalable/user-trash-full-dark.svg
         '';
     });
   };
